@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simple JS program with function</title>
+</head>
+<body>
+<script type="text/javascript">
+	function add(a, b){
+		// var a = 10;
+		// var b = 20;
+		a = parseInt(a);
+		b = parseInt(b);
+		var sum = a+b;
+		return sum; 
+	}
+
+	var a = prompt("Enter a number");
+	var b = prompt("Enter another number");
+	var c = add(a,b);
+
+	document.write("The sum is "+add(a,b));
+</script>
+</body>
+</html>

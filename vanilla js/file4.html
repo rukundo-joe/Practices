@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simple JS program with function</title>
+</head>
+<body>
+<script type="text/javascript">
+	class polygon{
+		constructor(){
+			this.a=20;
+			this.b=10;
+		}
+		input(){
+			this.a=20;
+			this.a=10;
+		}
+	}
+
+	class rectangle extends polygon{
+		// constructor(){
+		// 	this.a=20;
+		// 	this.b=10;
+		// }
+		showArea(){
+			var length=this.a;
+			var width=this.b;
+			var Area = length*width;
+			document.write("Area = "+Area);
+		}
+	}
+
+	var I = new rectangle;
+	I.showArea();
+</script>
+</body>
+</html>
+
+
+
+class Number
+{
+constructor(c,d)
+{
+this.a=c;
+this.b=d;
+}
+sum()
+{
+return this.a+this.b;
+}
+}
+a=prompt("enter a number");
+b=prompt("enter a number");
+a=parseInt(a);a
+b=parseInt(b);
+n=new Number(a,b);
+document.write("sum is "+n.sum());
